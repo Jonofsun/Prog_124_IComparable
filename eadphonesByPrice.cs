@@ -8,12 +8,12 @@ namespace Prog_124_IComparable
 {
     internal class eadphonesByPrice : IComparable<eadphonesByPrice>
     {
-        public string Brand { get; set; }
+        
         public double Price { get; set; }
 
-        public eadphonesByPrice(string brand, double price)
+        public eadphonesByPrice(double price)
         {
-            Brand = brand;
+            
             Price = price;
         }
 
@@ -23,3 +23,6 @@ namespace Prog_124_IComparable
         }
     }
 }
+// if > return 1
+// else if < return -1
+// else 0
